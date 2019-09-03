@@ -1,3 +1,4 @@
+import { ScreenComponent } from './../screen/screen.component';
 import { StatCardComponent } from './../stat-card/stat-card.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -23,6 +24,6 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [DashboardPage, InfoCardsComponent, StatCardComponent]
+  declarations: [DashboardPage, InfoCardsComponent, StatCardComponent, ScreenComponent]
 })
 export class DashboardPageModule {}

@@ -1,0 +1,67 @@
+@import "../../theme/scss/variables";
+@import "../../theme/scss/mixins";
+@import "../../theme/scss/core-bootstrap";
+
+// Core Components
+@import "../../theme/scss/buttons";
+@import "../../theme/scss/checkboxes";
+@import "../../theme/scss/radios";
+@import "../../theme/scss/forms";
+@import "../../theme/scss/input-group";
+@import "../../theme/scss/images";
+@import "../../theme/scss/navbar";
+@import "../../theme/scss/alerts";
+@import "../../theme/scss/headers";
+@import "../../theme/scss/type";
+@import "../../theme/scss/tabs";
+@import "../../theme/scss/tooltip";
+@import "../../theme/scss/popover";
+@import "../../theme/scss/dropdown";
+@import "../../theme/scss/togglebutton";
+@import "../../theme/scss/ripples";
+@import "../../theme/scss/footers";
+@import "../../theme/scss/sidebar-and-main-panel";
+@import "../../theme/scss/fixed-plugin";
+@import "../../theme/scss/tables";
+@import "../../theme/scss/misc";
+@import "../../theme/scss/social-buttons";
+
+@import "../../theme/scss/cards";
+@import "../../theme/scss/cards/card-stats";
+@import "../../theme/scss/cards/card-profile";
+@import "../../theme/scss/cards/card-plain";
+
+//plugin scss
+@import "../../theme/scss/plugins/animate";
+@import "../../theme/scss/plugins/chartist";
+@import "../../theme/scss/plugins/perfect-scrollbar";
+
+@import "../../theme/scss/responsive";
+
+
+.card{
+    .card-header{
+        &.card-header-icon ion-icon {
+            font-size: 36px;
+            line-height: 56px;
+            width: 56px;
+            height: 56px;
+            text-align: center;
+        }
+    }
+
+    overflow:visible;
+
+    .card-body{
+        .screen{
+            height:270px;
+            width: 270px;
+            border:1px solid;
+        }
+    }
+
+}
+
+ion-col{
+    border:1px solid;
+}
